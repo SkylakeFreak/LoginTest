@@ -1,0 +1,70 @@
+/* Resetting default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling the main container */
+.main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Styling the input fields and buttons */
+.username_div,
+.password_div {
+    margin-bottom: 20px;
+}
+
+.username_text,
+.password_text {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.username_input,
+.password_input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.username_input:focus,
+.password_input:focus {
+    border-color: dodgerblue;
+}
+h1{
+    font-size: small;
+}
+.button_div button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: dodgerblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button_div button:hover {
+    background-color: #007acc;
+}
