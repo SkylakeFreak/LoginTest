@@ -52,6 +52,7 @@ body {
 }
 h1{
     font-size: small;
+    padding: 10pc;
 }
 .button_div button {
     width: 100%;
